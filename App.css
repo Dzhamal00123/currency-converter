@@ -26,7 +26,7 @@ body {
   position: relative;
 }
 
-/* Создаем красивые плавающие пятна на фоне */
+
 body::before,
 body::after {
   content: '';
@@ -40,14 +40,12 @@ body::after {
   animation: float 12s infinite alternate ease-in-out;
 }
 
-/* Сине-фиолетовое пятно */
 body::before {
   background: radial-gradient(circle, #c7d2fe 0%, #e0e7ff 100%);
   top: -10%;
   left: -10%;
 }
 
-/* Бирюзовое пятно */
 body::after {
   background: radial-gradient(circle, #bfdbfe 0%, #a5b4fc 100%);
   bottom: -10%;
@@ -55,7 +53,6 @@ body::after {
   animation-delay: -6s;
 }
 
-/* Добавим третье пятно через псевдоэлемент контейнера */
 .app-container::before {
   content: '';
   position: absolute;
@@ -102,7 +99,6 @@ body::after {
   font-weight: 500;
 }
 
-/* Усиливаем эффект стекла */
 .converter-card {
   background: var(--card-bg);
   backdrop-filter: blur(20px) saturate(180%);
