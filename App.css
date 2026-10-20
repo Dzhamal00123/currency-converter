@@ -1,7 +1,7 @@
 :root {
   --primary: #4F46E5;
   --primary-hover: #4338CA;
-  --card-bg: rgba(255, 255, 255, 0.75); /* Сделали чуть прозрачнее для эффекта стекла */
+  --card-bg: rgba(255, 255, 255, 0.75); 
   --text-main: #1e293b;
   --text-muted: #64748b;
   --border: #e2e8f0;
